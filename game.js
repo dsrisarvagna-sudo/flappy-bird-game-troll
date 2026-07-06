@@ -743,7 +743,7 @@ function drawStartScreen() {
 
     ctx.fillStyle = "#FFD700";
     ctx.font = "bold " + titleSize + "px Arial";
-    ctx.fillText("BHONDU BIRD(SPIDY EDITION)", cx, cy - canvas.height * 0.22);
+    ctx.fillText("BHONDU BIRD", cx, cy - canvas.height * 0.22);
 
     ctx.fillStyle = "white";
     ctx.font = bodySize + "px Arial";
@@ -844,7 +844,7 @@ function drawGameOverScreen() {
     // Title
     ctx.fillStyle = "#FF4444";
     ctx.font = "bold " + titleSize + "px Arial";
-    ctx.fillText("EM UNDHI LE ENKA", cx, rowTitle);
+    ctx.fillText("EM UNDHI LE", cx, rowTitle);
 
     // Stats
     ctx.fillStyle = "white";
